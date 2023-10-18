@@ -1,0 +1,199 @@
+.bienvenue {
+    margin-bottom: 60px;
+}
+.bienvenue h1 {
+    margin-top: $bienTitMarTop;
+}
+.rectangle {
+    @include rectangle;
+}
+.bien_left {
+    @include img_left;    
+}
+.bien_right {
+    @include img_right;    
+}
+.btn {
+    @include btn;
+}
+.info img {
+    width: 50%;
+    padding-bottom: 15px;
+}
+.info_container {
+    margin-top: $infoContMarTop;
+}
+.info h5 {
+    text-align: center;
+}
+.img_bien {
+    width: auto;
+}
+.adoption {
+    background-color: #EAF0FF;
+}
+
+.ado01 {
+    @include ado01;
+}
+.ado01c {
+    @include ado01c;
+}
+
+.ado02 {
+    @include ado02;
+}
+.ado02c {
+    @include ado02c;
+}
+.ado03 {
+    @include ado03c;
+}
+.ado03c {
+    @include ado03c;
+}
+.ado04 {
+    @include ado04;
+}
+.ado04c {
+    @include ado04c;
+}
+.ado05c {
+    @include ado05c;
+}
+.ado06c {
+    @include ado06c;
+}
+.ado07c {
+    @include ado07c;
+}
+
+.btn_ado {
+    @include btn_ado;
+}
+.titre {
+    width: 80%;
+}
+.box01 {
+    display: none;
+    background-color: white;
+}
+.ado01:hover {
+    .btn_ado {
+        display: none;
+    }
+    .box01 {
+        display: block;        
+    }
+}
+.ado01c:hover {
+    .btn_ado {
+        display: none;
+    }
+    .box01 {
+        display: block;
+    }
+}
+.box02 {
+    display: none;
+    background-color: white;    
+}
+.ado02:hover {
+    .btn_ado {
+        display: none;
+    }
+    .box02 {
+        display: block;
+    }
+}
+.ado02c:hover {
+    .btn_ado {
+        display: none;
+    }
+    .box02 {
+        display: block;
+    }
+}
+.box03 {
+    display: none;
+    background-color: white;
+    width: 80%;
+}
+.ado03:hover {
+    .btn_ado {
+        display: none;
+    }
+    .box03 {
+        display: block;
+    }
+}
+.ado03c:hover {
+    .btn_ado {
+        display: none;
+    }
+    .box03 {
+        display: block;
+    }
+}
+.box04 {
+    display: none;
+    background-color: white;
+    width: 80%;
+}
+
+.ado04c:hover {
+    .btn_ado {
+        display: none;
+    }
+    .box04 {
+        display: block;
+    }
+}
+.box05 {
+    display: none;
+    background-color: white;
+    width: 80%;
+}
+
+.ado05c:hover {
+    .btn_ado {
+        display: none;
+    }
+    .box05 {
+        display: block;
+    }
+}
+.box06 {
+    display: none;
+    background-color: white;
+    width: 80%;
+}
+
+.ado06c:hover {
+    .btn_ado {
+        display: none;
+    }
+    .box06 {
+        display: block;
+    }
+}
+.box07 {
+    display: none;
+    background-color: white;
+    width: 80%;
+}
+
+.ado07c:hover {
+    .btn_ado {
+        display: none;
+    }
+    .box07 {
+        display: block;
+    }
+}
+.carousel {
+    height: 35vh;
+}
+.adoptiondown {
+    margin-bottom: $mainMarBottom;
+}

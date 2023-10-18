@@ -1,0 +1,414 @@
+.contain_head {
+  padding: 0px 10%;
+}
+
+.navbar > .ctfluid {
+  flex-wrap: nowrap;
+}
+
+.imgheader {
+  width: 200px;
+  max-width: 200px;
+}
+
+.nav-link {
+  font-size: 20px;
+  font-weight: bold;
+  color: #22234F;
+  white-space: nowrap;
+}
+
+a.nav-link:hover::after {
+  width: 100%;
+}
+a.nav-link::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 3px;
+  background-color: orange;
+  transition: all 0.2s ease;
+}
+a.nav-link::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 3px;
+  background-color: orange;
+  transition: all 0.2s ease;
+}
+
+body {
+  font-family: "Roboto";
+}
+
+.bienvenue {
+  margin-bottom: 60px;
+}
+
+.bienvenue h1 {
+  margin-top: 15px;
+}
+
+.rectangle {
+  width: 15%;
+  height: 2px;
+  background-color: orange;
+  margin: auto;
+}
+
+.bien_left {
+  background-image: url(/assets/img/chiens-adoption-spa.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 30vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+
+.bien_right {
+  background-image: url(/assets/img/chats-adoption-spa.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 30vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+
+.btn {
+  background-color: #22234F;
+  color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.info img {
+  width: 50%;
+  padding-bottom: 15px;
+}
+
+.info_container {
+  margin-top: 40px;
+}
+
+.info h5 {
+  text-align: center;
+}
+
+.img_bien {
+  width: auto;
+}
+
+.adoption {
+  background-color: #EAF0FF;
+}
+
+.ado01 {
+  background-image: url(/assets/img/C11-F-Rhodesian-Noir-Blanc-120520-Kila-6-274x363.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 35vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+
+.ado01c {
+  background-image: url(/assets/img/C11-F-Rhodesian-Noir-Blanc-120520-Kila-6-274x363.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 35vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+
+.ado02 {
+  background-image: url(/assets/img/C11-F-Rhodesian-Noir-120521-Seilba-7-274x363.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 35vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+
+.ado02c {
+  background-image: url(/assets/img/C11-F-Rhodesian-Noir-120521-Seilba-7-274x363.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 35vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+
+.ado03 {
+  background-image: url(/assets/img/C7-F-BA-Noir-Fauve-119916-Nouma-4-274x363.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 35vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+
+.ado03c {
+  background-image: url(/assets/img/C7-F-BA-Noir-Fauve-119916-Nouma-4-274x363.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 35vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+
+.ado04 {
+  background-image: url(/assets/img/B21-M-x-braque-119192-Marquis-4-274x363.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 35vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+
+.ado04c {
+  background-image: url(/assets/img/B21-M-x-braque-119192-Marquis-4-274x363.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 35vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+
+.ado05c {
+  background-image: url(/assets/img/05.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 35vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+
+.ado06c {
+  background-image: url(/assets/img/06.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 35vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+
+.ado07c {
+  background-image: url(/assets/img/07.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 35vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+
+.btn_ado {
+  background-color: white;
+  color: #22234F;
+  padding: 20px;
+  width: 80%;
+}
+
+.titre {
+  width: 80%;
+}
+
+.box01 {
+  display: none;
+  background-color: white;
+}
+
+.ado01:hover .btn_ado {
+  display: none;
+}
+.ado01:hover .box01 {
+  display: block;
+}
+
+.ado01c:hover .btn_ado {
+  display: none;
+}
+.ado01c:hover .box01 {
+  display: block;
+}
+
+.box02 {
+  display: none;
+  background-color: white;
+}
+
+.ado02:hover .btn_ado {
+  display: none;
+}
+.ado02:hover .box02 {
+  display: block;
+}
+
+.ado02c:hover .btn_ado {
+  display: none;
+}
+.ado02c:hover .box02 {
+  display: block;
+}
+
+.box03 {
+  display: none;
+  background-color: white;
+  width: 80%;
+}
+
+.ado03:hover .btn_ado {
+  display: none;
+}
+.ado03:hover .box03 {
+  display: block;
+}
+
+.ado03c:hover .btn_ado {
+  display: none;
+}
+.ado03c:hover .box03 {
+  display: block;
+}
+
+.box04 {
+  display: none;
+  background-color: white;
+  width: 80%;
+}
+
+.ado04c:hover .btn_ado {
+  display: none;
+}
+.ado04c:hover .box04 {
+  display: block;
+}
+
+.box05 {
+  display: none;
+  background-color: white;
+  width: 80%;
+}
+
+.ado05c:hover .btn_ado {
+  display: none;
+}
+.ado05c:hover .box05 {
+  display: block;
+}
+
+.box06 {
+  display: none;
+  background-color: white;
+  width: 80%;
+}
+
+.ado06c:hover .btn_ado {
+  display: none;
+}
+.ado06c:hover .box06 {
+  display: block;
+}
+
+.box07 {
+  display: none;
+  background-color: white;
+  width: 80%;
+}
+
+.ado07c:hover .btn_ado {
+  display: none;
+}
+.ado07c:hover .box07 {
+  display: block;
+}
+
+.carousel {
+  height: 35vh;
+}
+
+.adoptiondown {
+  margin-bottom: 200px;
+}
+
+footer {
+  background-color: #EAF0FF;
+  color: white;
+  position: relative;
+}
+footer .contfoot {
+  background-color: #22234F;
+  position: relative;
+  margin-top: -50px;
+}
+footer .footlogo img {
+  background-color: white;
+  width: 100%;
+}
+footer .fleches img {
+  width: 5%;
+  height: 5%;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 50px;
+}
+footer .fleche01, footer .fleche02 {
+  display: flex;
+  gap: 15px;
+}
+footer .logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+footer .rowdown {
+  background-color: #22234F;
+  padding-top: 20px;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(/assets/fonts/Roboto-Regular.ttf);
+}
+
+/*# sourceMappingURL=style.css.map */
