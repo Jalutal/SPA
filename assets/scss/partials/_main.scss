@@ -32,14 +32,12 @@
 .adoption {
     background-color: #EAF0FF;
 }
-
 .ado01 {
     @include ado01;
 }
 .ado01c {
     @include ado01c;
 }
-
 .ado02 {
     @include ado02;
 }
@@ -67,7 +65,6 @@
 .ado07c {
     @include ado07c;
 }
-
 .btn_ado {
     @include btn_ado;
 }
@@ -140,7 +137,6 @@
     background-color: white;
     width: 80%;
 }
-
 .ado04c:hover {
     .btn_ado {
         display: none;
@@ -154,7 +150,6 @@
     background-color: white;
     width: 80%;
 }
-
 .ado05c:hover {
     .btn_ado {
         display: none;
@@ -182,7 +177,6 @@
     background-color: white;
     width: 80%;
 }
-
 .ado07c:hover {
     .btn_ado {
         display: none;

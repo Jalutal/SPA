@@ -1,23 +1,19 @@
 .contain_head {
     padding: 0px 10%;
 }
-
 .navbar>.ctfluid {
     flex-wrap: nowrap;
 }
-
 .imgheader {
     width: $imgHeaderWidth;
     max-width: 200px;      
 }
-
 .nav-link {
     font-size: $fontHeader;
     font-weight: bold;
     color: $headerColor;
     white-space: nowrap;
 }
-
 
 // :first :hover Pseudo Classes
 // ::after ::before Pseudo Elements
@@ -43,8 +39,7 @@ a.nav-link {
         height: 3px;
         background-color: orange;
         transition: all 0.2s ease;
-    }
-    
+    }    
 }
   
    
